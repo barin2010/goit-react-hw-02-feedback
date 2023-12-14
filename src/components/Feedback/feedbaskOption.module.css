@@ -1,0 +1,24 @@
+.control {
+  display: flex;
+  gap: 20px;
+}
+
+.option {
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  flex-basis: auto;
+  min-width: 155px;
+  background: linear-gradient(
+    90deg,
+    rgba(55, 121, 195, 1) 0%,
+    rgba(157, 157, 240, 0.4150035014005602) 17%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.option:hover {
+  transform: scale(1.1);
+}
